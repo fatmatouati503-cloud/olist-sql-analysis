@@ -1,16 +1,7 @@
-# olist-sql-analysis
-Advanced SQL queries and data analysis exploring the Olist Brazilian e-commerce database to extract actionable business intelligence and metrics.
+-- olist-sql-analysis
+-- Advanced SQL queries and data analysis exploring the Olist Brazilian e-commerce database to extract actionable business intelligence and metrics.
 USE olist;
 SHOW Tables;
-SELECT * FROM customers;
-DESCRIBE customers;
-SELECT * FROM geolocation;
-DESCRIBE geolocation;
-SELECT * FROM order_items;
-DESCRIBE order_items;
-SELECT * FROM order_payments;
-DESCRIBE order_payments;
- 
  -- Query 1 Database scope
  SELECT
 COUNT(*) AS total_orders,
